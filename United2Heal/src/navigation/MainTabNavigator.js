@@ -2,11 +2,11 @@
 import React, { useState, useEffect } from 'react';
 import { Button, StyleSheet, TextInput, View, Text, Alert, ActivityIndicator, TouchableOpacity } from "react-native";
 import { BottomTabBar, createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeTab from './HomeTab';
-import SearchTab from './SearchTab';
-import SettingsTab from './SettingsTab';
-import AddItemTab from './AddItemTab';
-import ItemPage from './ItemPage';
+import HomeTab from '../components/HomeTab';
+import SearchTab from '../components/SearchTab';
+import SettingsTab from '../components/SettingsTab';
+import AddItemTab from '../components/AddItemTab';
+import ItemPage from '../screens/ItemPage';
 import Icon from 'react-native-vector-icons/FontAwesome'; // Import your desired icon library
 
 

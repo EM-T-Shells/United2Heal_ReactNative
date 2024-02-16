@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, TextInput, View, Text, Alert, ActivityIndicator, TouchableOpacity, FlatList} from "react-native";
 import { useNavigation } from '@react-navigation/native';
-import { getSearchItemsList } from './U2HConfigNode';
+import { getSearchItemsList } from '../../U2HConfigNode';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import Divider from './Divider';
-import U2HConfigNode from './U2HConfigNode';
-import Item from './Item';
+import U2HConfigNode from '../../U2HConfigNode';
+import Item from '../models/Item';
 
 const SearchTab = () => {
   const [searchText, setSearchText] = useState('');

@@ -5,7 +5,7 @@ import BottomSheet, { BottomSheetSectionList } from "@gorhom/bottom-sheet";
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import { useNavigation } from '@react-navigation/native';
 import Divider from './Divider';
-import GoogleSheetsPage from './GoogleSheetsPage'; 
+import GoogleSheetsPage from '../screens/GoogleSheetsPage'; 
 
 
 const AdminExportBoxTab = () => {

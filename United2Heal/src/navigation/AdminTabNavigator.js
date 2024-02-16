@@ -1,12 +1,12 @@
 // AdminTabNavigator.js
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import AdminHomeTab from './AdminHomeTab';
-import SettingsTab from './SettingsTab';
+import AdminHomeTab from '../components/AdminHomeTab';
+import SettingsTab from '../components/SettingsTab';
 import Icon from 'react-native-vector-icons/FontAwesome5'; // Import your desired icon library
-import AdminOpenBoxTab from './AdminOpenBoxTab';
-import AdminCloseBoxTab from './AdminCloseBoxTab';
-import AdminExportBoxTab from './AdminExportBoxTab';
+import AdminOpenBoxTab from '../components/AdminOpenBoxTab';
+import AdminCloseBoxTab from '../components/AdminCloseBoxTab';
+import AdminExportBoxTab from '../components/AdminExportBoxTab';
 
 const Tab = createBottomTabNavigator();
 

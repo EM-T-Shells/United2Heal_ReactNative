@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { useNavigation} from '@react-navigation/native';
-import LogoutContext from './LogoutContext';
+import LogoutContext from '../contexts/LogoutContext';
 
 const SettingsTab = () => {
   const navigation = useNavigation();

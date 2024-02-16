@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Provider as PaperProvider } from 'react-native-paper';
-import MainTabNavigator from './MainTabNavigator';
-import WelcomePage from './WelcomePage';
-import AdminScreen from './AdminScreen';
-import VolunteerLogin from './VolunteerLogin';
-import AdminTabNavigator from './AdminTabNavigator';
-import LogoutContext from './LogoutContext';
-import GoogleSheetsPage from './GoogleSheetsPage'; // Update the path accordingly
+import MainTabNavigator from './navigation/MainTabNavigator';
+import WelcomePage from './screens/WelcomePage';
+import AdminScreen from './screens/AdminScreen';
+import VolunteerLogin from './components/VolunteerLogin';
+import AdminTabNavigator from './navigation/AdminTabNavigator';
+import LogoutContext from './contexts/LogoutContext';
+import GoogleSheetsPage from './screens/GoogleSheetsPage'; // Update the path accordingly
 
 const LoginNavigationStack = createNativeStackNavigator();
 
