@@ -3,7 +3,7 @@ import { useNavigation } from '@react-navigation/native';
 import { View, Text, Image, StyleSheet, TouchableOpacity, ActivityIndicator, Alert, TextInput, KeyboardAvoidingView, Keyboard } from 'react-native';
 import BottomSheet, { BottomSheetSectionList } from "@gorhom/bottom-sheet";
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import U2HConfigNode from '../../U2HConfigNode';
+import U2HConfigNode from '../U2HConfigNode';
 import Divider from './Divider';
 import { ScrollView } from 'react-native-gesture-handler';
 
@@ -139,7 +139,7 @@ const VolunteerLogin = ({ onLogin }) => {
         }
         <Text style={styles.pageTitle}>United2Heal</Text>
         <Image
-            source={require('./assets/img/u2hlogo.png')}
+            source={require('../img/u2hlogo.png')}
             style={styles.image}
         />
         <View style={styles.inputContainer}>

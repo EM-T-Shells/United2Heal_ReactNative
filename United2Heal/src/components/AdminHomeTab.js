@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, ActivityIndicator, Switch } from 'react-native';
-import U2HConfigNode from '../../U2HConfigNode';
+import U2HConfigNode from '../U2HConfigNode';
 import { useNavigation } from '@react-navigation/native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import { get } from 'react-native/Libraries/TurboModule/TurboModuleRegistry';

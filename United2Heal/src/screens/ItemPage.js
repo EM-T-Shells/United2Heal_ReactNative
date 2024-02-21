@@ -4,7 +4,7 @@ import DatePicker from 'react-native-date-picker';
 import { useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import BottomSheet, { BottomSheetSectionList } from "@gorhom/bottom-sheet";
-import U2HConfigNode from '../../U2HConfigNode';
+import U2HConfigNode from '../U2HConfigNode';
 import Divider from '../components/Divider';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 

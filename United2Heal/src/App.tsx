@@ -8,8 +8,8 @@ import WelcomePage from './screens/WelcomePage';
 import AdminScreen from './screens/AdminScreen';
 import VolunteerLogin from './components/VolunteerLogin';
 import AdminTabNavigator from './navigation/AdminTabNavigator';
-import LogoutContext from './contexts/LogoutContext';
-import GoogleSheetsPage from './screens/GoogleSheetsPage'; // Update the path accordingly
+import LogoutContext from './navigation/LogoutContext';
+import GoogleSheetsPage from './screens/GoogleSheetsPage'; 
 
 const LoginNavigationStack = createNativeStackNavigator();
 

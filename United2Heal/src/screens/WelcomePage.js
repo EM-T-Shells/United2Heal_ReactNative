@@ -22,7 +22,7 @@ const WelcomePage = ({ navigation }) => {
   return (
     <View style={styles.container}>
         <Image
-            source={require('./assets/img/u2hlogo.png')}
+            source={require('../img/u2hlogo.png')}
             style={styles.image}
         />
         <Text style={styles.title}>United2Heal</Text>

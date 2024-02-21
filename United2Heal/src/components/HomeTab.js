@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { View, Image, Text, StyleSheet, ActivityIndicator } from 'react-native';
-import U2HConfigNode from '../../U2HConfigNode';
+import U2HConfigNode from '../U2HConfigNode';
 import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 

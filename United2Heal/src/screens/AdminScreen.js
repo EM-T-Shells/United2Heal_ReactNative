@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { View, Text, TextInput, ActivityIndicator, StyleSheet, Alert, Image, TouchableOpacity, KeyboardAvoidingView } from 'react-native';
-import U2HConfigNode from '../../U2HConfigNode';
+import U2HConfigNode from '../U2HConfigNode';
 
 const AdminScreen = ({ onLogin}) => {
   const navigation = useNavigation();
@@ -64,7 +64,7 @@ const AdminScreen = ({ onLogin}) => {
       }
       <Text style={styles.pageTitle}>United2Heal</Text>
       <Image
-            source={require('./assets/img/u2hlogo.png')}
+            source={require('../img/u2hlogo.png')}
             style={styles.image}
         />
       <Text style={styles.title}>Admin Login</Text>
